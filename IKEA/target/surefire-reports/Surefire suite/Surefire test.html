@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 24 10:48:45 CDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>212 seconds (212416 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.com.itexps.AddFavoritesTest.testAddFavoritesTestCase()'><b>testAddFavoritesTestCase</b><br>Test class: test.com.itexps.AddFavoritesTest</td>
+<td></td>
+<td>27</td>
+<td>test.com.itexps.AddFavoritesTest@c540f5a</td></tr>
+<tr>
+<td title='test.com.itexps.AddProductTest.testAddProductTestCase()'><b>testAddProductTestCase</b><br>Test class: test.com.itexps.AddProductTest</td>
+<td></td>
+<td>34</td>
+<td>test.com.itexps.AddProductTest@4d826d77</td></tr>
+<tr>
+<td title='test.com.itexps.CreateProfileTest.testCreateProfileTest()'><b>testCreateProfileTest</b><br>Test class: test.com.itexps.CreateProfileTest</td>
+<td></td>
+<td>18</td>
+<td>test.com.itexps.CreateProfileTest@61009542</td></tr>
+<tr>
+<td title='test.com.itexps.myIkeaDropdownTest.testDropDownTestCase()'><b>testDropDownTestCase</b><br>Test class: test.com.itexps.myIkeaDropdownTest</td>
+<td></td>
+<td>18</td>
+<td>test.com.itexps.myIkeaDropdownTest@58134517</td></tr>
+<tr>
+<td title='test.com.itexps.FilterSearchTest.testFilterSearchTestCase()'><b>testFilterSearchTestCase</b><br>Test class: test.com.itexps.FilterSearchTest</td>
+<td></td>
+<td>20</td>
+<td>test.com.itexps.FilterSearchTest@6279cee3</td></tr>
+<tr>
+<td title='test.com.itexps.FindStoreTest.testFindStoreTestCase()'><b>testFindStoreTestCase</b><br>Test class: test.com.itexps.FindStoreTest</td>
+<td></td>
+<td>8</td>
+<td>test.com.itexps.FindStoreTest@7bb58ca3</td></tr>
+<tr>
+<td title='test.com.itexps.GiftCardTest.testGiftCardTestCase()'><b>testGiftCardTestCase</b><br>Test class: test.com.itexps.GiftCardTest</td>
+<td></td>
+<td>14</td>
+<td>test.com.itexps.GiftCardTest@1a052a00</td></tr>
+<tr>
+<td title='test.com.itexps.ItemNotFoundTest.testItemNotFoundTestCase()'><b>testItemNotFoundTestCase</b><br>Test class: test.com.itexps.ItemNotFoundTest</td>
+<td></td>
+<td>7</td>
+<td>test.com.itexps.ItemNotFoundTest@29ba4338</td></tr>
+<tr>
+<td title='test.com.itexps.LoginTest.testLoginTestCase()'><b>testLoginTestCase</b><br>Test class: test.com.itexps.LoginTest</td>
+<td></td>
+<td>13</td>
+<td>test.com.itexps.LoginTest@448ff1a8</td></tr>
+<tr>
+<td title='test.com.itexps.myIkeaMouseTest.testMouseHoverTestCase()'><b>testMouseHoverTestCase</b><br>Test class: test.com.itexps.myIkeaMouseTest</td>
+<td></td>
+<td>5</td>
+<td>test.com.itexps.myIkeaMouseTest@77e9807f</td></tr>
+<tr>
+<td title='test.com.itexps.myIkeaScrollTest.testScroll()'><b>testScroll</b><br>Test class: test.com.itexps.myIkeaScrollTest</td>
+<td></td>
+<td>9</td>
+<td>test.com.itexps.myIkeaScrollTest@770c2e6b</td></tr>
+<tr>
+<td title='test.com.itexps.SearchTest.testSearchTestCase()'><b>testSearchTestCase</b><br>Test class: test.com.itexps.SearchTest</td>
+<td></td>
+<td>9</td>
+<td>test.com.itexps.SearchTest@57175e74</td></tr>
+<tr>
+<td title='test.com.itexps.ZipLocatorTest.testZipLocatorTestCase()'><b>testZipLocatorTestCase</b><br>Test class: test.com.itexps.ZipLocatorTest</td>
+<td></td>
+<td>4</td>
+<td>test.com.itexps.ZipLocatorTest@4206a205</td></tr>
+</table><p>
+</body>
+</html>
